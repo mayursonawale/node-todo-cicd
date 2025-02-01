@@ -4,4 +4,4 @@ services:
   web:
     image: mayursonawale171/node-app:latest
     ports:
-      - "9000:9000"
+      - "8000:8000"
