@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Todo List APP MKS</title>
+        <title>Todo List</title>
         <style>
             body {
                 font-family: Arial, sans-serif;
@@ -89,7 +89,7 @@
     </head>
 
     <body>
-        <h1>Jenikns Project</h1>
+        <h1> ToDo App</h1>
         <ul>
             <% todolist.forEach(function(todo, index) { %>
             <li>
@@ -102,7 +102,7 @@
 
         <form action="/todo/add/" method="post">
             <p>
-                <label for="newtodo">What should I do Update by Mayur?</label>
+                <label for="newtodo">What should I do?</label>
                 <input type="text" name="newtodo" id="newtodo" autofocus />
                 <input type="submit" value="Add" />
             </p>
