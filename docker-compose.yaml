@@ -2,6 +2,8 @@ version: '3.9'
 
 services:
   web:
-    image: mayursonawale171/node-app:latest
+    build:
+      context: .
+    image: node-app
     ports:
       - "8000:8000"
